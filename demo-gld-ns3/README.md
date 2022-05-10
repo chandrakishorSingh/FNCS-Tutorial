@@ -95,8 +95,8 @@ wget https://github.com/zeromq/libzmq/releases/download/v4.3.4/zeromq-4.3.4.tar.
 # if above two methods don't work then manually download the tar file of libzmq from https://github.com/zeromq/libzmq
 
 # unpack zeromq, change to its directory
-tar -xzf zeromq-3.2.4.tar.gz
-cd zeromq-3.2.4
+tar -xzf zeromq-4.3.4.tar.gz
+cd zeromq-4.3.4
 
 # configure, make, and make install
 ./configure --prefix=$FNCS_INSTALL
@@ -127,8 +127,8 @@ wget https://github.com/zeromq/czmq/releases/download/v4.2.1/czmq-4.2.1.tar.gz
 # if above two methods don't work then manually download the tar file of czmq from https://github.com/zeromq/czmq/
 
 # unpack czmq, change to its directory
-tar -xzf czmq-3.0.0-rc1.tar.gz
-cd czmq-3.0.0
+tar -xzf czmq-4.2.1.tar.gz
+cd czmq-4.2.1
 
 # configure, make, and make install
 ./configure --prefix=$FNCS_INSTALL --with-libzmq=$FNCS_INSTALL
