@@ -41,8 +41,8 @@ You will need to install git in order to clone (checkout) all of our
 FNCS and related software packages.
 
 - FNCS
-  - ZeroMQ (3.2.x)
-  - CZMQ (3.0.x)
+  - ZeroMQ (4.3.x)
+  - CZMQ (4.2.x)
 - GridLAB-D (ticket 797)
   - Xerces (3.1.1)
   - autoconf (2.63 or better)
@@ -89,9 +89,10 @@ Get the ZeroMQ software and install it using the following steps:
 cd $HOME
 
 # download zeromq
-wget http://download.zeromq.org/zeromq-3.2.4.tar.gz
+wget https://github.com/zeromq/libzmq/releases/download/v4.3.4/zeromq-4.3.4.tar.gz
 # if you do not have wget, use
-# curl -O http://download.zeromq.org/zeromq-3.2.4.tar.gz
+# curl -O https://github.com/zeromq/libzmq/releases/download/v4.3.4/zeromq-4.3.4.tar.gz
+# if above two methods don't work then manually download the tar file of libzmq from https://github.com/zeromq/libzmq
 
 # unpack zeromq, change to its directory
 tar -xzf zeromq-3.2.4.tar.gz
@@ -120,9 +121,10 @@ installed ZeroMQ as written above, the following will work for you.
 cd $HOME
 
 # download czmq
-wget http://download.zeromq.org/czmq-3.0.0-rc1.tar.gz
+wget https://github.com/zeromq/czmq/releases/download/v4.2.1/czmq-4.2.1.tar.gz
 # if you do not have wget, use
-# curl -O http://download.zeromq.org/czmq-3.0.0-rc1.tar.gz
+# curl -O https://github.com/zeromq/czmq/releases/download/v4.2.1/czmq-4.2.1.tar.gz
+# if above two methods don't work then manually download the tar file of czmq from https://github.com/zeromq/czmq/
 
 # unpack czmq, change to its directory
 tar -xzf czmq-3.0.0-rc1.tar.gz
